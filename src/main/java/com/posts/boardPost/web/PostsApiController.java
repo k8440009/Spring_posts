@@ -1,8 +1,8 @@
 package com.posts.boardPost.web;
 
-import com.posts.boardPost.domain.posts.PostsSaveRequestDto;
 import com.posts.boardPost.service.PostsService;
 import com.posts.boardPost.web.dto.PostsResponseDto;
+import com.posts.boardPost.web.dto.PostsSaveRequestDto;
 import com.posts.boardPost.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

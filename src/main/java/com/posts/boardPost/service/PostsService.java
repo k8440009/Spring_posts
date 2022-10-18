@@ -2,8 +2,8 @@ package com.posts.boardPost.service;
 
 import com.posts.boardPost.domain.posts.PostRepository;
 import com.posts.boardPost.domain.posts.Posts;
-import com.posts.boardPost.domain.posts.PostsSaveRequestDto;
 import com.posts.boardPost.web.dto.PostsResponseDto;
+import com.posts.boardPost.web.dto.PostsSaveRequestDto;
 import com.posts.boardPost.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
