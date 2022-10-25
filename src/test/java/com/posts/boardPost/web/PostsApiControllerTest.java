@@ -2,7 +2,7 @@ package com.posts.boardPost.web;
 
 import com.posts.boardPost.domain.posts.PostRepository;
 import com.posts.boardPost.domain.posts.Posts;
-import com.posts.boardPost.domain.posts.PostsSaveRequestDto;
+import com.posts.boardPost.web.dto.PostsSaveRequestDto;
 import com.posts.boardPost.web.dto.PostsUpdateRequestDto;
 import org.junit.After;
 import org.junit.Test;
