@@ -1,5 +1,6 @@
 package com.posts.boardPost.web;
 
+import com.posts.boardPost.config.auth.LoginUser;
 import com.posts.boardPost.config.auth.dto.SessionUser;
 import com.posts.boardPost.service.PostsService;
 import com.posts.boardPost.web.dto.PostsResponseDto;
@@ -15,14 +16,9 @@ import javax.servlet.http.HttpSession;
 @Controller
 public class IndexController {
     private final PostsService postsService;
-    private final HttpSession httpSession;
     @GetMapping("/")
-    public String index(Model model) {
+    public String index(Model model, @LoginUser SessionUser user) {
          model.addAttribute("posts", postsService.findAllDesc());
-        /**
-         * 로그인 성공 시 세션에 SessionUser를 저장하도록 구성
-         */
-        SessionUser user = (SessionUser) httpSession.getAttribute("user");
 
         if (user != null) {
             model.addAttribute("userName", user.getName());
