@@ -49,4 +49,4 @@ gradle-app.setting
 # gradle/wrapper/gradle-wrapper.properties
 
 # add oauth profile
-application-ouath.properties
+application-oauth.properties
