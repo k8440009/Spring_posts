@@ -2,8 +2,8 @@ package com.posts.boardPost.config.auth;
 
 import com.posts.boardPost.config.auth.dto.OAuthAttributes;
 import com.posts.boardPost.config.auth.dto.SessionUser;
-import com.posts.boardPost.domain.posts.UserRepository;
 import com.posts.boardPost.domain.user.User;
+import com.posts.boardPost.domain.user.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.oauth2.client.userinfo.DefaultOAuth2UserService;

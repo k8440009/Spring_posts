@@ -1,8 +1,5 @@
-package com.posts.boardPost.domain.posts;
+package com.posts.boardPost.domain.user;
 
-import com.posts.boardPost.domain.user.User;
-import lombok.Getter;
-import lombok.RequiredArgsConstructor;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
